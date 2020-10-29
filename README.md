@@ -10,7 +10,8 @@ $ pcap_replay.py --pcap <pcap_file> --list
 
 
 # Run server side instance
-$ pcap_replay.py --pcap <pcap_file> --server 127.0.0.2:9999 --connection 10.0.0.20:59471
+$ pcap_replay.py --pcap <pcap_file> --server 0.0.0.0:80 --connection 172.168.15.10:80
 
 # Run client side instance
-$ pcap_replay.py --pcap <pcap_file> --client 127.0.0.2:9999 --connection 10.0.0.20:59471
+$ pcap_replay.py --pcap <pcap_file> --client <real_server_ip>:80 --connection 172.168.15.10:80
+
