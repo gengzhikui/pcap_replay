@@ -7,7 +7,7 @@ $ pcap_replay.py --pcap <pcap_file> --list
 192.168.132.1:80 -> 10.0.0.20:59471 (starting at frame 1)
 
 
-# Run server side pplay instance
+# Run server side instance
 $ pcap_replay.py --pcap <pcap_file> --server 127.0.0.2:9999 --connection 10.0.0.20:59471
 
 # Run client side instance
